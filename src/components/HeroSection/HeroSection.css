@@ -1,0 +1,53 @@
+.hero-container{
+    background:url("https://img.wattpad.com/21fd76ec1a6c69047ebdb37d44d7622a1bd221cf/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f49593031616a39692d336b6348513d3d2d3538343736363337302e313533353237653935316466326162363532323132303335333930312e676966") center center/ cover no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    object-fit: contain;
+    margin-top: -80px;
+}
+
+.hero-container > h1 {
+    color: #fff;
+    font-size: 80px;
+    margin-top: 0px;
+}
+
+.hero-container > p {
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+}
+
+.hero-btns{
+    margin-top:32px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 960px){
+    .hero-container > h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .hero-container > h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .hero-container > h1 {
+        font-size: 60px;
+    }
+
+
+.hero-container > p {
+    font-size: 30px;
+    }
+}
